@@ -65,6 +65,12 @@
        flex-direction: column;
         width: 250%; 
     }
+    .pro{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+        width: 180%;
+    }
 }
 .project{
     /* border: 2px solid gold; */
@@ -81,7 +87,7 @@
      border-radius: 50px; 
      font-size: 30px; 
      margin-top: -1.7rem; 
-     width: 35px; 
+      width: 60px;  
     margin-left: 40%;    
      background-color: rgba(17, 14, 14, 0.884); 
     color: blue;  
@@ -99,16 +105,56 @@
     font-size: 30px;
 }
 
+ .css{
+    border: 2px solid gold;
+    background-color: rgba(17, 14, 14, 0.884);
+    width: 50%;
+    padding: 30px;
+    font-size: 10px;
+  
+ }
+ .parsent{
+    border: 2px solid white;
+    height: 20px;
+  text-align: center;
+   
 
-
-
-
-
-
-
-
-
-
-
-
- /* background-image:linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0.753)),url('360_F_970465429_n7EdHJ5w8tMvmOn2VwgwLquJiKGXNrje.jpg');   */
+ }
+ .w3{
+  width: 100%;
+  background-color: green;
+  height: 17px;
+  
+ }
+ .w4{
+    width: 80%;
+    background-color: green;
+    height: 16px;
+ }
+ .w5{
+    width: 70%;
+    background-color: green;
+    height: 16px;
+ }
+ .w6{
+    width: 70%;
+    background-color: green;
+    height: 16px;
+ }
+ .w8{
+    width: 90%;
+    background-color: green;
+    height: 16px;
+ }
+ .w9{
+    width: 70%;
+    background-color: green;
+    height: 16px;
+ }
+ .pro{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    background-color: rgba(17, 14, 14, 0.884);
+    padding: 40px;
+ }
