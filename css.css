@@ -1,0 +1,136 @@
+.hellow{
+    color: rgb(212, 115, 115);
+    /* font-family: "Phetsarath", serif;
+  font-weight: 400 */
+}
+.font{
+    font-family: "Phetsarath", serif;
+  font-weight: 400 ;
+  font-size: 40px;
+}
+.header{
+  text-align: center;
+  border: 2px solid red;
+  padding-top: 50px;
+  font-size: 25px;
+  padding-bottom: 150px;
+     background-color: rgba(17, 14, 14, 0.411); */
+}
+.body{
+   background-image: url('360_F_970465429_n7EdHJ5w8tMvmOn2VwgwLquJiKGXNrje.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+   
+}
+.fac{
+    font-size: 40px;
+}
+.img img{
+ width: 100%;
+}
+.banner{
+    background-color:rgba(17, 14, 14, 0.63) ;
+    border: 2px solid gold;
+    padding-top: 40px;
+    margin-top: 70px;
+    padding-bottom: 40px;
+   
+}
+.card{
+    display: flex;
+    gap: 30px;
+}
+.button{
+     padding: 20px 10px 20px 15px ; 
+    border-color: rgba(30, 233, 30, 0.925);
+    background-color:rgba(17, 14, 14, 0.753) ;
+    color: white;
+  
+}
+@media only screen and (max-width: 600px) {
+    .header{
+        flex-direction: column;
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+    }
+    .flex{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       flex-direction: column;
+        width: 250%; 
+    }
+}
+
+
+/* .project{
+    border: 2px solid hotpink;  
+     text-align: center; 
+    background-color:rgba(17, 14, 14, 0.884) ;
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+    gap: 40px; 
+
+   
+}
+.code{
+      border: 2px solid white; 
+  
+     padding: 10px; 
+     border-radius: 50px; 
+     font-size: 30px; 
+     margin-top: -1.7rem; 
+     width: 35px; 
+       margin-left: 180px;    
+     background-color: rgba(17, 14, 14, 0.884); 
+    color: blue;  
+    
+  
+} */
+.project{
+    border: 2px solid gold;
+    text-align: center;
+     width: 40%; 
+    margin-top: 60px;
+   
+}
+.code{
+    border: 2px solid white; 
+  
+     padding: 10px; 
+     border-radius: 50px; 
+     font-size: 30px; 
+     margin-top: -1.7rem; 
+     width: 35px; 
+    margin-left: 40%;    
+     background-color: rgba(17, 14, 14, 0.884); 
+    color: blue;  
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* background-image:linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0.753)),url('360_F_970465429_n7EdHJ5w8tMvmOn2VwgwLquJiKGXNrje.jpg');   */
