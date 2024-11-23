@@ -10,11 +10,12 @@
 }
 .header{
   text-align: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding-top: 50px;
   font-size: 25px;
   padding-bottom: 150px;
-       background-color: rgba(17, 14, 14, 0.411);  
+       background-color: rgba(17, 14, 14, 0.411); 
+      
 }
 .body{
    background-image: url('stock-photo-laptop.jfif');
@@ -22,6 +23,7 @@
     background-position: center;
     background-attachment: fixed;
     color: white;
+  
    
 }
 .fac{
@@ -33,10 +35,11 @@
 }
 .banner{
     background-color:rgba(17, 14, 14, 0.61) ;
-    border: 2px solid gold;
+    /* border: 2px solid gold; */
     padding-top: 40px;
     margin-top: 70px;
     padding-bottom: 40px;
+    padding: 30px;
    
 }
 .card{
@@ -53,6 +56,7 @@
 @media only screen and (max-width: 600px) {
     .header{
         flex-direction: column;
+        
     }
     .card{
         display: grid;
@@ -96,6 +100,7 @@
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    padding: 30px;
 }
 .web{
     color: rgb(19, 179, 19);
@@ -106,7 +111,7 @@
 }
 
  .css{
-    border: 2px solid gold;
+    /* border: 2px solid gold; */
     background-color: rgba(17, 14, 14, 0.884);
     width: 50%;
     padding: 30px;
@@ -155,6 +160,41 @@
     display: flex;
     gap: 20px;
     margin-top: 50px;
-    background-color: rgba(17, 14, 14, 0.884);
+    background-color: rgba(17, 14, 14, 0.596);
     padding: 40px;
  }
+.program img{
+    height: 190px;
+}
+.fu{
+    background-color: rgba(17, 14, 14, 0.596);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    padding: 30px;
+  
+
+}
+.foter{
+   
+    /* width: 25%; */
+    background-color: rgba(17, 14, 14, 0.856);
+    text-align: center;
+}
+.git{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20x;
+    padding: 10px;
+    color: chartreuse;
+}
+@media only screen and (max-width: 600px) {
+    .fu{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+        /* width: 100%; */
+       gap: 40px;
+    }
+}
