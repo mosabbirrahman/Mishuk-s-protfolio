@@ -38,7 +38,7 @@
 }
 .banner{
     background-color:rgba(17, 14, 14, 0.61) ;
-    /* border: 2px solid gold; */
+    
     padding-top: 40px;
     margin-top: 70px;
     padding-bottom: 40px;
@@ -47,7 +47,7 @@
 }
 .card{
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
 .button{
      padding: 20px 10px 20px 15px ; 
@@ -280,6 +280,7 @@
     color: white;
     
 }
+
 .ma{
     padding-right: 30px;
     padding-left: 30px;
@@ -288,7 +289,8 @@
     
 }
 .btn{
-    padding: 20px 20px 20px 20px;
+    /* padding: 20px 24px; */
+    padding: 15px 25px;
     background-color: rgba(17, 14, 14, 0.856);
     color: white;
 }
